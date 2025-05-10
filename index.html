@@ -11,12 +11,7 @@
     width: 31% !important;
       }
     }
-    .port-img{
-      max-width:100px;
-      width:100px;
-      margin: 0 auto;
-  height: 100px;
-    }
+   
     .pr-img{
       width: 100%;
       height: 100%;
@@ -37,18 +32,18 @@
     background-attachment: fixed; */
 }
     header {
-              background-color: #16697a;
-
+/*               background-color: #16697a;
+ */
     padding: 2rem;
     color: #fff;
     text-align: center;
     }
     header img {
-      border-radius: 50%;
+/*       border-radius: 50%;
       width: 150px;
       height: 150px;
       object-fit: cover;
-      margin-top: 1rem;
+      margin-top: 1rem; */
     }
     main {
       padding: 2rem;
@@ -110,18 +105,29 @@
     color: #16697a;
 }
     .bnr-img{width:100%; height:100%; }
+    .img-container{
+      position:absolute;
+      top:30%;
+      left:40%;
+    }
+    .port-img{
+      position:relative;
+      line-height:0px;
+    }
   </style>
 </head>
 <body>
    <img class="bnr-img" src="Purple and Yellow Elegant Personal Profile with Photo Profile Linkedin Background Photo.png">
   <header>
-   
+    
      <div class="port-img">
-    <img class="pr-img" src="1000050080.jpg" alt="Hema Photo">
+        <img class="bnr-img" src="Purple and Yellow Elegant Personal Profile with Photo Profile Linkedin Background Photo.png">
+<!--     <img class="pr-img" src="1000050080.jpg" alt="Hema Photo"> -->
     </div>
+      <div class="img-container">
     <h1>Hemakshi Babariya</h1>
     <p>Shopify Front-End Developer</p>
-   
+      </div>
   </header>
   <main>
     <section>
